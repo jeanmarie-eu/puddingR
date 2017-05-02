@@ -22,6 +22,7 @@ devtools::install_github("jeanmarielepioufle/puddingR")
 library(sugaR)
 library(puddingR)
 
+# test 1
 h <- sugaR(name = "test",auth_type = "none",endpoint = NULL)
 
 h$authenticate()
@@ -37,7 +38,7 @@ req$set_handle(verb=h$info()$handle$verb, header=h$info()$handle$headers,  body=
 req$request(url=urlTest,filename="x.tmp") # status code = 200
 resp <- response(req)
 
-################################
+# test 2
 
 h <- sugaR(name = "test",auth_type = "none",endpoint = NULL)
 
