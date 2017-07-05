@@ -1,8 +1,7 @@
 Package: puddingR
 Type: Package
 Version: 0.0.1
-Authors@R: person("Jean-Marie", "Lepioufle", , "jm@nexmodeling.com", c("aut","cre"),
-           person("nexModeling", role = "cph"))
+Authors@R: c(person("Jean-Marie", "Lepioufle", , "me@jeanmarie.eu", c("aut","cre")))
 Title: puddingR
 Description: Interface for curl.
   The package focuses on getting data from remote service.
